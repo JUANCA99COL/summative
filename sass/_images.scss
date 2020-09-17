@@ -1,0 +1,59 @@
+.container {
+    background: url('../img/autumn.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 76vh;
+    width: 100%;
+    height: 500px;
+}
+
+.container-two {
+    background: url('../img/epic-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 76vh;
+    width: 100%;
+    height: 500px;
+}
+
+.bird {
+  width: 100%;
+}
+
+.img-one, .img-two, .img-three {
+  width: 33%;
+  margin-top: 40px;
+}
+
+.mao {
+  width: 200px;
+  border-radius: 50%;
+  background: white;
+  margin: 65px auto;
+  display: block;
+  cursor: pointer;
+  height: auto;
+}
+
+.mao:hover{
+  opacity: 1.0;
+  background-color: grey;
+}
+
+.autumn-images-hikes {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.arrow-up {
+    position: absolute;
+    left: 47.5%;
+    width: 100px;
+    cursor: pointer;
+}
+
+.arrow-up:hover{
+  background-color: grey;
+}
+
+.middle-section {
+  background: black;
+}

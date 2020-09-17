@@ -1,0 +1,62 @@
+// textStyle($fs, $c, $ta, $m, $ls, $lh, $mt, $pt, $mb)
+h1{
+  @include textStyle(3rem, white, center, 20px, 0, 65px, 0, 0, 0);
+}
+h2 {
+    @include textStyle(2rem, white, center, 10px, 0, 30px, 0, 0, 40px);
+}
+
+p {
+    @include textStyle(2rem, white, center, 20px, 0, 30px, 0, 20px, 70px);
+}
+
+.header {
+  @include textStyle(3rem, black, center, 10px, 0, 45px, 180px, 0, 0);
+}
+
+.para {
+  @include textStyle(2rem, black, center, 20px, 0, 30px, 0, 20px, 70px);
+}
+
+.tittle-one {
+  @include textStyle(3rem, white, center, 20px, 0, 65px, 0, 180px, 0);
+}
+
+.tittle {
+  @include textStyle(3rem, white, center, 20px, 0, 65px, 130px, 0, 0);
+}
+
+.header-two {
+  @include textStyle(3rem, white, center, 10px, 0, 30px, 126px, 0, 0);
+}
+
+.para-two {
+    @include textStyle(2rem, white, center, 20px, 0, 30px, 0, 20px, 70px);
+}
+
+.tittle-book {
+  @include textStyle(3rem, black, center, 20px, 0, 65px, 180px, 0, 0);
+}
+
+.text-book {
+  @include textStyle(2rem, black, center, 20px, 0, 30px, 0, 20px, 70px);
+}
+
+.tittle-one-bot {
+  @include textStyle(3rem, white, center, 20px, 0, 65px, 0, 230px, 0);
+}
+
+.services-tittle{
+  @include textStyle(3rem, black, center, 20px, 0, 65px, 90px, 0, 0);
+}
+.services-tittle-two {
+    @include textStyle(2rem, black, center, 10px, 0, 30px, 0, 0, 40px);
+}
+
+.services-para {
+    @include textStyle(2rem, black, center, 20px, 0, 30px, 0, 20px, 70px);
+}
+
+.services-para-two {
+    @include textStyle(2rem, black, center, 20px, 0, 30px, 0, 20px, 200px);
+}

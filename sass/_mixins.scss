@@ -1,0 +1,11 @@
+@mixin textStyle($fs, $c, $ta, $m, $ls, $lh, $mt, $pt, $mb){
+  font-size: $fs;
+  color: $c;
+  text-align: $ta;
+  margin: $m;
+  letter-spacing: $ls;
+  line-height: $lh;
+  margin-top: $mt;
+  padding-top: $pt;
+  margin-bottom: $mb;
+}
