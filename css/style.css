@@ -87,14 +87,15 @@ a {
   background-repeat: no-repeat;
   background-size: 100vw 110vh;
   width: 100%;
-  height: 770px; }
+  height: 664px;
+ }
 
 .container-two {
   background: url("../img/epic-cover.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 110vh;
   width: 100%;
-  height: 700px; 
+  height: 664px;
 }
 
 .bird {
